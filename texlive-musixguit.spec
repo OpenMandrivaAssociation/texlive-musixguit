@@ -1,3 +1,9 @@
+# revision 21649
+# category Package
+# catalog-ctan /macros/latex/contrib/musixguit
+# catalog-date 2011-03-07 21:34:56 +0100
+# catalog-license lppl1.3
+# catalog-version 1.2.2
 Name:		texlive-musixguit
 Version:	1.2.2
 Release:	1
@@ -39,6 +45,7 @@ especially for simplifying guitar notation with MusixTeX.
 %doc %{_texmfdistdir}/doc/latex/musixguit/README
 %doc %{_texmfdistdir}/doc/latex/musixguit/musixguit_de.pdf
 %doc %{_texmfdistdir}/doc/latex/musixguit/musixguit_de.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ especially for simplifying guitar notation with MusixTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
