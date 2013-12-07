@@ -6,7 +6,7 @@
 # catalog-version 1.2.2
 Name:		texlive-musixguit
 Version:	1.2.2
-Release:	4
+Release:	5
 Summary:	Easy notation for guitar music, in MusixTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/musixguit
