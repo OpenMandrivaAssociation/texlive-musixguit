@@ -3,7 +3,7 @@ Version:	21649
 Release:	2
 Summary:	Easy notation for guitar music, in MusixTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/musixguit
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/musixguit
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/musixguit.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/musixguit.doc.r%{version}.tar.xz
